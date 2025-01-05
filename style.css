@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff5f8;
     color: #333;
@@ -15,15 +15,15 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 600px;
     margin: auto;
     text-align: center;
-  }
-  
-  .carousel {
+}
+
+.carousel {
     position: relative;
     width: 100%;
     max-width: 600px;
@@ -33,154 +33,236 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .carousel-image {
+}
+
+.carousel-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-  }
-  
-  .carousel-image.active {
+}
+
+.carousel-image.active {
     opacity: 1;
-  }
-  
-  .romantic-title {
+}
+
+.romantic-title {
     font-family: 'Great Vibes', cursive;
     font-size: 48px;
     color: #d6336c;
     margin: 20px 0;
-  }
-  
-  .romantic-text {
+}
+
+.romantic-text {
     font-size: 18px;
     margin: 20px 0;
     color: #555;
-  }
-  
-  .time-together {
+}
+
+.time-together {
     font-size: 20px;
     font-weight: bold;
     color: #d6336c;
-  }
-  
-  .counter {
+}
+
+.counter {
     font-size: 24px;
     font-weight: bold;
     margin: 10px 0 20px;
     color: #555;
-  }
-  
-  .playlist iframe {
+}
+
+.playlist iframe {
     border: none;
     border-radius: 8px;
     width: 100%;
-  }
-  
-  .timeline {
+}
+
+.timeline {
     margin: 30px 0;
-  }
-  
-  .section-title {
+}
+
+.section-title {
     font-size: 24px;
     color: #d6336c;
     margin-bottom: 15px;
-  }
-  
-  .timeline-list {
+}
+
+.timeline-list {
     list-style: none;
     padding: 0;
-  }
-  
-  .timeline-date {
+}
+
+.timeline-date {
     font-weight: bold;
     color: #333;
-  }
-  
-  .timeline-list li {
+}
+
+.timeline-list li {
     margin-bottom: 15px;
-  }
-  
-  .quotes {
+}
+
+.quotes {
     margin: 30px 0;
-  }
-  
-  .quote {
+}
+
+.quote {
     font-style: italic;
     color: #555;
     margin-bottom: 10px;
-  }
-  
-  .personal-message {
+}
+
+.personal-message {
     margin: 30px 0;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  footer {
+}
+
+footer {
     font-size: 14px;
     color: #555;
     margin-top: 20px;
-  }
-  footer span {
+}
+
+footer span {
     color: #d6336c;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+.equation-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.plot-button {
+    padding: 15px 20px;
+    background-color: #d6336c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plot-button:hover {
+    background-color: #a61e4d;
+}
+
+#loveCanvas {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#equationInfo {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.equation-inline {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #ffdee5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading-message {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #d6336c;
+    animation: fade 1.5s infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 768px) {
     .carousel {
-      height: 300px;
+        height: 300px;
     }
-  
+
     .carousel-image {
-      height: 300px;
+        height: 300px;
     }
-  
+
     .romantic-title {
-      font-size: 36px;
+        font-size: 36px;
     }
-  
+
     .romantic-text {
-      font-size: 16px;
+        font-size: 16px;
     }
-  
+
     .counter {
-      font-size: 20px;
+        font-size: 20px;
     }
-  
+
     .section-title {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .carousel {
-      height: 200px;
+        height: 200px;
     }
-  
+
     .carousel-image {
-      height: 200px;
+        height: 200px;
     }
-  
+
     .romantic-title {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
+
     .romantic-text {
-      font-size: 14px;
+        font-size: 14px;
     }
-  
+
     .counter {
-      font-size: 18px;
+        font-size: 18px;
     }
-  
+
     .section-title {
-      font-size: 18px;
+        font-size: 18px;
     }
-  }
-  
+
+    .plot-button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    #loveCanvas {
+        width: 90%;
+        height: auto;
+    }
+}
