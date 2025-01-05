@@ -27,7 +27,7 @@
     position: relative;
     width: 100%;
     max-width: 600px;
-    height: 300px;
+    height: 400px;
     overflow: hidden;
     margin-bottom: 20px;
     display: flex;
@@ -134,11 +134,11 @@
   
   @media (max-width: 768px) {
     .carousel {
-      height: 200px;
+      height: 300px;
     }
   
     .carousel-image {
-      height: 200px;
+      height: 300px;
     }
   
     .romantic-title {
@@ -160,11 +160,11 @@
   
   @media (max-width: 480px) {
     .carousel {
-      height: 150px;
+      height: 200px;
     }
   
     .carousel-image {
-      height: 150px;
+      height: 200px;
     }
   
     .romantic-title {
