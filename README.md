@@ -27,6 +27,21 @@ Você pode testar o site clicando no link abaixo:
 
 Este projeto é especial e pessoal, mas caso tenha sugestões ou melhorias, sinta-se à vontade para abrir um pull request no repositório.
 
+## Doação
+
+Se você gostou dessa ideia e quer ajudar a mantê-la viva, considere fazer uma doação. Sua contribuição será utilizada para aprimorar o site, adicionar novas funcionalidades e continuar celebrando histórias de amor como a nossa. Qualquer valor será de grande ajuda e muito apreciado! ❤️
+
+Você pode doar através dos links abaixo:
+
+**Paypal**
+
+[Doe via PayPal clicando aqui!](https://www.paypal.com/donate/?business=MYP8UFRBNNQTJ&no_recurring=0&item_name=contribui%C3%A7%C3%A3o+ser%C3%A1+utilizada+para+aprimorar+o+site+e+adicionar+novas+funcionalidades.&currency_code=USD)
+
+**Ou use a chave Pix abaixo:**  
+```txt
+juan.ibanezdf@gmail.com
+```
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE) no repositório.
