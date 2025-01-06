@@ -35,7 +35,7 @@ Você pode doar através dos links abaixo:
 
 **Paypal**
 
-[Doe via PayPal clicando aqui!](https://www.paypal.com/donate/?business=MYP8UFRBNNQTJ&no_recurring=0&item_name=contribui%C3%A7%C3%A3o+ser%C3%A1+utilizada+para+aprimorar+o+site+e+adicionar+novas+funcionalidades.&currency_code=USD)
+[Doe via PayPal clicando aqui!](https://www.paypal.com/donate/?business=MYP8UFRBNNQTJ&no_recurring=0&item_name=Contribui%C3%A7%C3%A3o+ser%C3%A1+utilizada+para+aprimorar+o+site+e+adicionar+novas+funcionalidades.&currency_code=BRL)
 
 **Ou use a chave Pix abaixo:**  
 ```txt
