@@ -41,7 +41,7 @@ function preloadImages() {
 preloadImages();
 
 // Contador de tempo juntos
-const startDate = new Date('2024-06-01T00:00:00'); // Data inicial do relacionamento
+const startDate = new Date('2024-05-01T00:00:00'); // Data inicial do relacionamento
 function updateCounter() {
   const now = new Date();
   const difference = now - startDate;
